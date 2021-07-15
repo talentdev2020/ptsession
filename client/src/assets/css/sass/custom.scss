@@ -1,0 +1,73 @@
+.modal-right {
+  .modal-dialog {
+    max-width: 768px;
+  }
+}
+
+.social-profile-img {
+  position: static;
+  height: 75px;
+  transform: none;
+}
+
+main {
+  margin-top: 0;
+}
+
+body {
+  padding-top: 90px;
+  min-height: 100vh;
+}
+
+.gallery-preview div[index] {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.gallery-preview div[index] img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.session-card {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(47, 82, 143);
+  border-radius: 10px;
+}
+
+.session-card.pt {
+  background-color: rgb(56, 87, 35);
+}
+
+.session-card.pt.completed {
+  background-color: rgb(31, 78, 121);
+}
+
+.session-card.nonpt {
+  background-color: rgb(127, 96, 0);
+}
+
+.session-card.completed {
+  background-color: rgb(31, 78, 121);
+}
+
+.session-card.update {
+  background-color: rgb(197, 90, 17);
+}
+
+.session-card.purchase {
+  background-color: rgb(112, 48, 160);
+}
+
+.session-card .session-card-left {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
